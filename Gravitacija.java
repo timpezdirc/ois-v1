@@ -17,4 +17,9 @@ public class Gravitacija {
         return (C * M) / (Math.pow(r + visina, 2));
     }
 
+    public static void izpis(int visina, double pospesek) {
+        System.out.println(visina);
+        System.out.println(pospesek);
+    }
+
 }
