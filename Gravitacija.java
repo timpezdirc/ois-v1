@@ -11,6 +11,8 @@ public class Gravitacija {
         final double M = 5.972e24;
         final double r = 6.371e6;
 
+        izpis(nadmorskaVisina, izracun(nadmorskaVisina, C, M, r));
+
     }
 
     public static double izracun(int visina, double C, double M, double r) {
